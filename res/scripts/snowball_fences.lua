@@ -35,94 +35,94 @@ fences.fences = {
         length = 2.11874
     },
     {
-        name=_("snowball_farmer_fence_brick").."1-1-1",
+        name=_("snowball_farmer_fence_brick").." 1",
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_01.mdl",
-        length = 2.11874
+        length = 3
     },
     {
-        name=_("snowball_farmer_fence_brick").."1-1-2",
+        name=_("snowball_farmer_fence_brick").." 2",
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_02.mdl",
-        length = 2.11874
+        length = 3
     },
     {
-        name=_("snowball_farmer_fence_brick").."1-1-3",
+        name=_("snowball_farmer_fence_brick").." 3",
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_03.mdl",
-        length = 2.11874
+        length = 3
     },
     {
-        name=_("snowball_farmer_fence_brick").."1-1-4",
+        name=_("snowball_farmer_fence_brick").." 4",
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_04.mdl",
-        length = 2.11874
+        length = 3
     },
     {
-        name=_("snowball_farmer_fence_brick").."1-1-5",
+        name=_("snowball_farmer_fence_brick").." 5",
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_05.mdl",
-        length = 2.11874
+        length = 3
     },
     {
-        name=_("snowball_farmer_fence_brick").."1-1-6",
+        name=_("snowball_farmer_fence_brick").." 6",
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_06.mdl",
-        length = 2.11874
+        length = 3
     },
     {
-        name=_("snowball_farmer_fence_brick").."1-1-7",
+        name=_("snowball_farmer_fence_brick").." 7",
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_07.mdl",
-        length = 2.11874
+        length = 3
     },
     {
-        name=_("snowball_farmer_fence_brick").."1-1-8",
+        name=_("snowball_farmer_fence_brick").." 8",
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_08.mdl",
-        length = 2.11874
+        length = 3
     },
-    {
-        name=_("snowball_farmer_fence_brick").."1-1-9",
+    --[[{
+        name=_("snowball_farmer_fence_brick").." 9",
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_09.mdl",
-        length = 2.11874
-    },
+        length = 3
+    },]]
     {
-        name=_("snowball_farmer_fence_brick").."2-1-1",
+        name=_("snowball_farmer_fence_white").." 1",
         post = "asset/snowball_farmer_fences/brick_wall2_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall2_middle_01.mdl",
-        length = 2.11874
+        length = 2
     },
     {
-        name=_("snowball_farmer_fence_brick").."2-1-2",
+        name=_("snowball_farmer_fence_white").." 2",
         post = "asset/snowball_farmer_fences/brick_wall2_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall2_middle_02.mdl",
-        length = 2.11874
+        length = 2
     },
     {
-        name=_("snowball_farmer_fence_brick").."2-1-3",
+        name=_("snowball_farmer_fence_white").." 3",
         post = "asset/snowball_farmer_fences/brick_wall2_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall2_middle_03.mdl",
-        length = 2.11874
+        length = 1.8
     },
     {
-        name=_("snowball_farmer_fence_brick").."3-0-1",
+        name=_("snowball_farmer_fence_plate"),
         post = nil,
         middle = "asset/snowball_farmer_fences/brick_wall3_middle_01.mdl",
-        length = 2.11874
+        length = 2.2
     },
-    {
-        name=_("snowball_farmer_fence_brick").."4-0-1",
+    --[[{
+        name=_("snowball_farmer_fence_brick").." 1",
         post = nil,
         middle = "asset/snowball_farmer_fences/brick_wall4_middle_01.mdl",
-        length = 2.11874
-    },
+        length = 3
+    },]]
     {
-        name=_("snowball_farmer_fence_brick").."4-0-2",
+        name=_("snowball_farmer_fence_hedge").." 2",
         post = nil,
         middle = "asset/snowball_farmer_fences/brick_wall4_middle_02.mdl",
-        length = 2.11874
+        length = 3
     },
     {
         name=_("snowball_fences_fence_stockade"),
@@ -148,7 +148,7 @@ fences.fences = {
         length = 1.0
     },
     {
-        name="snowball_fences_fence_boxwood",        
+        name=_("snowball_fences_fence_boxwood"),        
         decoration = {"decoration/snowball_fences_boxwood_1.mdl", "decoration/snowball_fences_boxwood_2.mdl"},
         length = 1.0
     }

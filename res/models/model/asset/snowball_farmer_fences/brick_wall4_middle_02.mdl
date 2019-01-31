@@ -1,142 +1,72 @@
 function data()
 return {
 	boundingInfo = {
-		bbMax = { 2.18937, 0.10568, 1.08796, },
-		bbMin = { -0.07063, 0.0, 0.0, },
-		
+		bbMax = { 3.3739, 0.63728, 2.23163, },
+		bbMin = { -0.7739, -0.63734, 0, },
 	},
 	collider = {
 		params = {
 			
 		},
 		type = "MESH",
-		
 	},
 	lods = {
 		{
-			animations = {
-				
-			},
 			children = {
-			{
+				{
 					id = "asset/snowball_farmer_fences/brick_fence_01_lod_0_middle_2.msh",
 					transf = {
-						1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 1.5, 0, -0.94, 1, 
+						1.0, 0.0, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.5, 0.0, -0.94, 1.0, 
 					},
 					type = "MESH",
-					
 				},
-				
 				{
-					id = "tree/easternredcedar_rt_1_lod1.msh",
+					id = "tree/easternredcedar_rt_1_lod0.msh",
 					transf = {
-						-0.5, 0, 0, 0, 0, 0.3, 0, 0, 0, 0, 0.2, 0, 1.5, 0, -0.1, 1, 
+						-0.5, 0.0, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, -0.0, 0.2, 0.0, 1.5, 0.0, -0.1, 1.0, 
 					},
 					type = "MESH",
-					
 				},
 				{
-					id = "tree/easternredcedar_rt_1_lod1.msh",
+					id = "tree/easternredcedar_rt_1_lod0.msh",
 					transf = {
-						0.6, 0, 0, 0, 0, 0.3, 0, 0, 0, 0, 0.21, 0, 1., 0, -0.1, 1, 
+						0.6, 0.0, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 0.0, 0.21, 0.0, 1.0, 0.0, -0.1, 1.0, 
 					},
 					type = "MESH",
-					
 				},
 				{
-					id = "tree/easternredcedar_rt_1_lod1.msh",
+					id = "tree/easternredcedar_rt_1_lod0.msh",
 					transf = {
-						0.4, 0, 0, 0, 0, 0.3, 0, 0, 0, 0, 0.212, 0, 2.5, 0, -0.1, 1, 
+						0.4, 0.0, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 0.0, 0.212, 0.0, 2.5, 0.0, -0.1, 1.0, 
 					},
 					type = "MESH",
-					
 				},
 				{
-					id = "tree/easternredcedar_rt_1_lod1.msh",
+					id = "tree/easternredcedar_rt_1_lod0.msh",
 					transf = {
-						-0.4, 0, 0, 0, 0, 0.3, 0, 0, 0, 0, 0.194, 0, 0.1, 0, -0.1, 1, 
+						-0.4, 0.0, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, -0.0, 0.194, 0.0, 0.1, 0.0, -0.1, 1.0, 
 					},
 					type = "MESH",
-					
-				},
-			},
-			events = {
-				
-			},
-			matConfigs = {
-				{
-					0, 
 				}, 
 			},
-			static = true,
-			visibleFrom = 150,
-			visibleTo = 750,
-			
-		}, {
-			animations = {
-				
-			},
-			children = {
-				{
-					id = "asset/snowball_farmer_fences/brick_fence_01_lod_0_middle_2.msh",
-					transf = {
-						1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 1.5, 0, -0.94, 1, 
-					},
-					type = "MESH",
-					
-				},
-				
-				{
-					id = "tree/easternredcedar_rt_1_lod0.msh",
-					transf = {
-						-0.5, 0, 0, 0, 0, 0.3, 0, 0, 0, 0, 0.2, 0, 1.5, 0, -0.1, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/easternredcedar_rt_1_lod0.msh",
-					transf = {
-						0.6, 0, 0, 0, 0, 0.3, 0, 0, 0, 0, 0.21, 0, 1., 0, -0.1, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/easternredcedar_rt_1_lod0.msh",
-					transf = {
-						0.4, 0, 0, 0, 0, 0.3, 0, 0, 0, 0, 0.212, 0, 2.5, 0, -0.1, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/easternredcedar_rt_1_lod0.msh",
-					transf = {
-						-0.4, 0, 0, 0, 0, 0.3, 0, 0, 0, 0, 0.194, 0, 0.1, 0, -0.1, 1, 
-					},
-					type = "MESH",
-					
-				},
-				          
-			},
-			events = {
-				
-			},
 			matConfigs = {
 				{
-					0, 
+					0, 0, 0, 0, 0, 
 				}, 
 			},
 			static = false,
 			visibleFrom = 0,
 			visibleTo = 150,
-			
 		}, 
 	},
 	metadata = {
-		
+		availability = {
+			yearFrom = 0,
+			yearTo = 0,
+		},
+		cost = {
+			price = 0,
+		},
 	},
-	
 }
 end

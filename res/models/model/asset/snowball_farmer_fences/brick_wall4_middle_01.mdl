@@ -1,209 +1,100 @@
 function data()
 return {
 	boundingInfo = {
-		bbMax = { 2.18937, 0.10568, 1.08796, },
-		bbMin = { -0.07063, 0.0, 0.0, },
-		
+		bbMax = { 3.42872, 0.7179, 2.69212, },
+		bbMin = { -0.3348, -0.7179, 0, },
 	},
 	collider = {
 		params = {
 			
 		},
 		type = "MESH",
-		
 	},
 	lods = {
 		{
-			animations = {
-				
-			},
 			children = {
-					
-				
 				{
-					id = "tree/azalea_rt_1_lod1.msh",
+					id = "tree/azalea_rt_1_lod0.msh",
 					transf = {
-						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.0, 1, 
+						-1.0, -0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.5, 0.0, 0.0, 1.0, 
 					},
 					type = "MESH",
-					
 				},
 				{
-					id = "tree/azalea_rt_1_lod1.msh",
+					id = "tree/azalea_rt_1_lod0.msh",
 					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.8, 1, 
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.5, 0.0, 0.8, 1.0, 
 					},
 					type = "MESH",
-					
 				},
 				{
-					id = "tree/azalea_rt_1_lod1.msh",
+					id = "tree/azalea_rt_1_lod0.msh",
 					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 1.4, 1, 
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.5, 0.0, 1.4, 1.0, 
 					},
 					type = "MESH",
-					
-				},
-
-				{
-					id = "tree/azalea_rt_1_lod1.msh",
-					transf = {
-						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.4, 0, 0.0, 1, 
-					},
-					type = "MESH",
-					
 				},
 				{
-					id = "tree/azalea_rt_1_lod1.msh",
+					id = "tree/azalea_rt_1_lod0.msh",
 					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.4, 0, 0.8, 1, 
+						-1.0, -0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.4, 0.0, 0.0, 1.0, 
 					},
 					type = "MESH",
-					
 				},
 				{
-					id = "tree/azalea_rt_1_lod1.msh",
+					id = "tree/azalea_rt_1_lod0.msh",
 					transf = {
-						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.4, 0, 1.4, 1, 
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.4, 0.0, 0.8, 1.0, 
 					},
 					type = "MESH",
-					
 				},
 				{
-					id = "tree/azalea_rt_1_lod1.msh",
+					id = "tree/azalea_rt_1_lod0.msh",
 					transf = {
-						1.4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.2, 0, 2.4, 0, 0.0, 1, 
+						-1.0, -0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.4, 0.0, 1.4, 1.0, 
 					},
 					type = "MESH",
-					
 				},
 				{
-					id = "tree/azalea_rt_1_lod1.msh",
+					id = "tree/azalea_rt_1_lod0.msh",
 					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4, 0, 0.8, 1, 
+						1.4, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.2, 0.0, 2.4, 0.0, 0.0, 1.0, 
 					},
 					type = "MESH",
-					
 				},
 				{
-					id = "tree/azalea_rt_1_lod1.msh",
+					id = "tree/azalea_rt_1_lod0.msh",
 					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4, 0, 1.4, 1, 
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.4, 0.0, 0.8, 1.0, 
 					},
 					type = "MESH",
-					
-				},                                
-			},
-			events = {
-				
-			},
-			matConfigs = {
+				},
 				{
-					0, 
+					id = "tree/azalea_rt_1_lod0.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.4, 0.0, 1.4, 1.0, 
+					},
+					type = "MESH",
 				}, 
 			},
-			static = true,
-			visibleFrom = 150,
-			visibleTo = 750,
-			
-		}, {
-			animations = {
-				
-			},
-			children = {
-				
-				
-				{
-					id = "tree/azalea_rt_1_lod0.msh",
-					transf = {
-						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.0, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/azalea_rt_1_lod0.msh",
-					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.8, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/azalea_rt_1_lod0.msh",
-					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 1.4, 1, 
-					},
-					type = "MESH",
-					
-				},
-
-				{
-					id = "tree/azalea_rt_1_lod0.msh",
-					transf = {
-						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.4, 0, 0.0, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/azalea_rt_1_lod0.msh",
-					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.4, 0, 0.8, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/azalea_rt_1_lod0.msh",
-					transf = {
-						-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.4, 0, 1.4, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/azalea_rt_1_lod0.msh",
-					transf = {
-						1.4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.2, 0, 2.4, 0, 0.0, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/azalea_rt_1_lod0.msh",
-					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4, 0, 0.8, 1, 
-					},
-					type = "MESH",
-					
-				},
-				{
-					id = "tree/azalea_rt_1_lod0.msh",
-					transf = {
-						1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4, 0, 1.4, 1, 
-					},
-					type = "MESH",
-					
-				},                                
-			},
-			events = {
-				
-			},
 			matConfigs = {
 				{
-					0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 
 				}, 
 			},
 			static = false,
 			visibleFrom = 0,
 			visibleTo = 150,
-			
 		}, 
 	},
 	metadata = {
-		
+		availability = {
+			yearFrom = 0,
+			yearTo = 0,
+		},
+		cost = {
+			price = 0,
+		},
 	},
-	
 }
 end

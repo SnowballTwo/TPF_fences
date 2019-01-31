@@ -1,76 +1,42 @@
 function data()
 return {
 	boundingInfo = {
-		bbMax = { 2.18937, 0.10568, 1.08796, },
-		bbMin = { -0.07063, 0.0, 0.0, },
-		
+		bbMax = { 1.82077, 0.09269, 3.453, },
+		bbMin = { -0.17775, -0.09306, 0, },
 	},
 	collider = {
 		params = {
 			
 		},
 		type = "MESH",
-		
 	},
 	lods = {
 		{
-			animations = {
-				
-			},
 			children = {
 				{
 					id = "asset/snowball_farmer_fences/brick_fence_01_lod_0_gate_1.msh",
 					transf = {
-						-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+						-1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, -0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 
 					},
 					type = "MESH",
-					
-				},
-				
-			},
-			events = {
-				
-			},
-			matConfigs = {
-				{
-					0, 
 				}, 
 			},
-			static = true,
-			visibleFrom = 150,
-			visibleTo = 750,
-			
-		}, {
-			animations = {
-				
-			},
-			children = {
-				{
-					id = "asset/snowball_farmer_fences/brick_fence_01_lod_0_gate_1.msh",
-					transf = {
-						-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
-					},
-					type = "MESH",
-					
-				},
-			},
-			events = {
-				
-			},
 			matConfigs = {
-				{
-					0, 
-				}, 
+				{ 0, }, 
 			},
 			static = false,
 			visibleFrom = 0,
 			visibleTo = 150,
-			
 		}, 
 	},
 	metadata = {
-		
+		availability = {
+			yearFrom = 0,
+			yearTo = 0,
+		},
+		cost = {
+			price = 0,
+		},
 	},
-	
 }
 end

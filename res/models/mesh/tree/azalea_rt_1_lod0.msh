@@ -1,0 +1,76 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 1632,
+					offset = 14520,
+				},
+				position = {
+					count = 1632,
+					offset = 12888,
+				},
+				tangent = {
+					count = 1632,
+					offset = 16152,
+				},
+				uv0 = {
+					count = 1632,
+					offset = 17784,
+				},
+			},
+			materials = {
+				"tree/azalea_rt_1_0.mtl", 
+			},
+		}, {
+			indices = {
+				normal = {
+					count = 1056,
+					offset = 20472,
+				},
+				position = {
+					count = 1056,
+					offset = 19416,
+				},
+				tangent = {
+					count = 1056,
+					offset = 21528,
+				},
+				uv0 = {
+					count = 1056,
+					offset = 22584,
+				},
+			},
+			materials = {
+				"tree/azalea_rt_1_1.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 3384,
+			numComp = 3,
+			offset = 2448,
+		},
+		position = {
+			count = 2448,
+			numComp = 3,
+			offset = 0,
+		},
+		tangent = {
+			count = 6912,
+			numComp = 4,
+			offset = 5832,
+		},
+		uv0 = {
+			count = 144,
+			numComp = 2,
+			offset = 12744,
+		},
+	},
+}
+end
