@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 504,
+					offset = 3156,
+				},
+				position = {
+					count = 504,
+					offset = 2148,
+				},
+				tangent = {
+					count = 504,
+					offset = 1644,
+				},
+				uv0 = {
+					count = 504,
+					offset = 2652,
+				},
+			},
+			materials = {
+				"brick_fence_01.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 252,
+			numComp = 3,
+			offset = 1392,
+		},
+		position = {
+			count = 288,
+			numComp = 3,
+			offset = 752,
+		},
+		tangent = {
+			count = 752,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 352,
+			numComp = 2,
+			offset = 1040,
+		},
+	},
+}
+end

@@ -1,0 +1,103 @@
+local fences = require "snowball_fences"
+
+local modes = {"plan", "build", "reset"}
+local faces = {"left", "right" }
+
+local function createParams()
+
+local params = {}
+
+params[#params + 1] = {
+	key = "snowball_fences_mode",
+	name = _("snowball_fences_mode"),
+	values = {_("snowball_fences_plan"), _("snowball_fences_build"), _("snowball_fences_reset")},
+	defaultIndex = 0
+}
+
+local fenceNames = {}
+
+for i=1,#fences.fences do
+	fenceNames[#fenceNames + 1] = fences.fences[i].name
+end
+
+params[#params + 1] ={
+	key = "snowball_fences_type",
+	name = _("snowball_fences_type"),
+	values = fenceNames,
+	defaultIndex = 0
+}
+params[#params + 1] ={
+	key = "snowball_fences_face",
+	name = _("snowball_fences_face"),
+	values = {	
+		_("snowball_fences_face_left"),			
+		_("snowball_fences_face_right"),				
+	},
+	defaultIndex = 0
+}
+params[#params + 1] ={
+	key = "snowball_fences_collision",
+	name = _("snowball_fences_collision"),
+	values = {	
+		_("snowball_fences_collision_on"),
+		_("snowball_fences_collision_auto"),
+		_("snowball_fences_collision_off"),	
+					
+	},
+	defaultIndex = 0
+}
+
+return params
+
+end
+
+function data()
+	return {
+		type = "ASSET_DEFAULT",
+		buildMode = "MULTI",
+		categories = {"fences"},
+		availability = {
+			yearFrom = 0,
+			yearTo = 0
+		},
+		description = {
+			name = _("title"),
+			description = _("description")
+		},
+		order = 197720801,
+		skipCollision = true,
+		autoRemovable = true,
+		params = createParams(),
+		updateFn = function(params)
+			local result = {
+				models = {},
+				cost = 10,
+				bulldozeCost = 10,
+				maintenanceCost = 0
+			}
+			local mode = modes[params.snowball_fences_mode + 1]		
+			local fence = fences.fences[params.snowball_fences_type + 1]			
+			local face = faces[params.snowball_fences_face + 1]	
+			local collision = params.snowball_fences_collision 
+			result.models = {}
+			result.terrainAlignmentLists = {
+				{
+					type = "EQUAL",
+					faces = {}
+				}
+			}
+			
+			if mode == "plan" then
+				fences.plan(result)
+			elseif mode == "reset" then
+				fences.reset(result)
+			elseif mode == "build" then
+				fences.build(result, fence, face, collision)
+			else
+				error("fences: invalid operation ", mode)
+			end
+
+			return result
+		end
+	}
+end

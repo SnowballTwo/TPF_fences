@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 3672,
+					offset = 14896,
+				},
+				position = {
+					count = 3672,
+					offset = 7552,
+				},
+				tangent = {
+					count = 3672,
+					offset = 3880,
+				},
+				uv0 = {
+					count = 3672,
+					offset = 11224,
+				},
+			},
+			materials = {
+				"asset/snowball_farmer_fences/brick_fence_02.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 240,
+			numComp = 3,
+			offset = 3640,
+		},
+		position = {
+			count = 2376,
+			numComp = 3,
+			offset = 784,
+		},
+		tangent = {
+			count = 784,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 480,
+			numComp = 2,
+			offset = 3160,
+		},
+	},
+}
+end
