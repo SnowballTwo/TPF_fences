@@ -81,13 +81,7 @@ fences.fences = {
         post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
         middle = "asset/snowball_farmer_fences/brick_wall1_middle_08.mdl",
         length = 3
-    },
-    --[[{
-        name=_("snowball_farmer_fence_brick").." 9",
-        post = "asset/snowball_farmer_fences/brick_wall1_post_01.mdl",
-        middle = "asset/snowball_farmer_fences/brick_wall1_middle_09.mdl",
-        length = 3
-    },]]
+    },   
     {
         name=_("snowball_farmer_fence_white").." 1",
         post = "asset/snowball_farmer_fences/brick_wall2_post_01.mdl",
@@ -111,19 +105,7 @@ fences.fences = {
         post = nil,
         middle = "asset/snowball_farmer_fences/brick_wall3_middle_01.mdl",
         length = 2.2
-    },
-    --[[{
-        name=_("snowball_farmer_fence_brick").." 1",
-        post = nil,
-        middle = "asset/snowball_farmer_fences/brick_wall4_middle_01.mdl",
-        length = 3
-    },]]
-    {
-        name=_("snowball_farmer_fence_hedge").." 2",
-        post = nil,
-        middle = "asset/snowball_farmer_fences/brick_wall4_middle_02.mdl",
-        length = 3
-    },
+    },   
     {
         name=_("snowball_fences_fence_stockade"),
         post = nil,        

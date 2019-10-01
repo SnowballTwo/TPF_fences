@@ -32,7 +32,7 @@ return {
 			},
 			static = false,
 			visibleFrom = 0,
-			visibleTo = 150,
+			visibleTo = 500,
 		}, 
 	},
 	metadata = {

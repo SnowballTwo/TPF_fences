@@ -26,6 +26,13 @@ function data()
 				maintenanceCost = 0
 			}
 
+			result.terrainAlignmentLists = {
+				{
+					type = "EQUAL",
+					faces = {}
+				}
+			}
+
 			local outline = params.outline
 			local center = params.center
 			local fence = params.fence
